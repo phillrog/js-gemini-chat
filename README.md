@@ -41,13 +41,10 @@ Para tamanho do botão flutuante vá no arquivo gemini.css
 # Considerações
 Com este exemplo será possível criar componentes para utilizar em aplicações Angular/React/ Flask e ASP .NET.
 
-# Referências
-
-* https://github.com/google-gemini/generative-ai-js
-
 # Resultado
 
 ![chatgemini](https://github.com/user-attachments/assets/7e2ce209-5996-44b1-b16e-f8f07c5bdd7c)
 
+# Referências
 
-
+* https://github.com/google-gemini/generative-ai-js
