@@ -115,7 +115,7 @@ var gemini = (() => {
     function updateDuration(duration) {
         const durationElement = document.getElementById("api-duration");
         durationElement.textContent = `Detalhes última chamada API # duração: ${duration} segundos`;
-        $('#collapsePanel').toggle();
+        $('#collapsePanel').hide();
     }
 
     function changeModel() {
