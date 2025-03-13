@@ -15,6 +15,12 @@ Após informar a chave, é gravado o valor no localStorage dentro do item GEMINI
 
 Obs: Quando fechar a página o item com a chave é removido.
 
+# Gemini AI
+Os modelos utilizados são gratuitos. Para utilizá-los é preciso criar uma conta GMAIL, acessar [AI Studio Google](https://aistudio.google.com/app/apikey), selecionar um projeto e criar as chaves e utilizar em suas aplicações.
+
+<img width="993" alt="image" src="https://github.com/user-attachments/assets/a3941b0d-7886-4e88-a93f-9076b1736bdc" />
+
+
 # Configurações
 
 Para o gemini vá no arquivo arquivo gemini.js 
