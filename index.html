@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Gemini Chat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+	<link href="css/gemini.css" rel="stylesheet">    
+  </head>
+  <body>
+    <div class="box " id="box" >
+      <h2 class="title-header">
+        <i class="far fa-comment-dots icon"></i>Gemini Chat
+      </h2>
+      <div class="chat">
+        <label for="model-select">Model:</label>
+        <select id="model-select">
+          <option value="gemini-2.0-flash">gemini-2.0-flash</option>
+          <option value="gemini-1.5-pro-lachat">gemini-1.5-pro</option>
+          <option value="gemini-1.5-flash-lachat">gemini-1.5-flash</option>
+          <option value="gemini-1.5-flash-8b-lachat">gemini-1.5-flash-8b</option>
+        </select>
+        <div id="chat-messages"></div>
+        <input type="text" id="user-input" placeholder="Pergunte ao gemini">
+        <button id="enviar-button" class="active">Enviar</button>
+        <button id="limpar-button">Limpar</button>
+        <a href="javascript:void(0);" onclick="$('#collapsePanel').toggle()">
+          <div id="api-duration"></div>
+        </a>
+        <div id="collapsePanel" class="collapse show">
+          <pre id="usage-metadata"></pre>
+        </div>
+      </div>
+    </div>
+    
+	<div class="Zmxtcf e5IPTd" jscontroller="DgIhze" style="
+    
+		position: fixed;
+		right: 36px;
+		bottom: 36px;
+		
+		cursor: pointer;" jsaction="JIbuQc:hvFYob;dduq4c:PrY1nf;BIkEBc:foYxRb;LkyfYb:EFVbM;JXMate:Ego55c;qzfiwe:vFwaKf;oqYoCb:.CLIENT;Db3vsd:.CLIENT" jslog="194062; u014N:xr6bB,cOuCgd,Kr2w4b; dYFj7e:true; 66:WzRd">
+	  <div class="VOYwb wUn25c">
+		<div class="lWI5Pb"></div>
+	  </div>
+	  <span data-is-tooltip-wrapper="true">
+		<button title="Click aqui para conversar com o Gemini" onclick="openChatBox()" class="VYBDae-JX-I VYBDae-JX-I-ql-ay5-ays XyWBof " jscontroller="PIVayb" jsaction="click:h5M12e; clickmod:h5M12e;pointerdown:FEiYhc;pointerup:mF5Elf;pointerenter:EX0mI;pointerleave:vpvbp;pointercancel:xyn4sd;contextmenu:xexox;focus:h06R8; blur:zjh6rb;mlnRJb:fLiPzd;" data-idom-class="XyWBof" data-use-native-focus-logic="true" aria-label="Pedir para Gemini" data-tooltip-enabled="true" data-tooltip-id="tt-c28" jslog="204391;track:click,hover;u014N:cOuCgd,ZmdkE;">
+		  <span class="OiePBf-zPjgPe VYBDae-JX-UHGRz"></span>
+		  <span class="bHC-Q" jscontroller="LBaJxb" jsname="m9ZlFb"></span>
+		  <span jsname="S5tZuc" aria-hidden="true" class="VYBDae-JX-ank-Rtc0Jf">
+			<span class="notranslate bzc-ank" aria-hidden="true">
+			  <svg focusable="false" viewBox="0 -960 960 960" height="28" width="28" class="EiVpKc aoH">
+				<path d="M480-80q2,0 2-2q0-82 31-154t85-126t126-85t154-31q2,0 2-2t-2-2q-82,0-154-31T598-598T513-724T482-878q0-2-2-2t-2,2q0,82-31,154T362-598T236-513T82-482q-2,0-2,2t2,2q82,0 154,31t126,85t85,126T478-82q0,2 2,2Z"></path>
+			  </svg>
+			</span>
+		  </span>
+		  <div class="VYBDae-JX-ano"></div>
+		</button>
+
+	  </span>
+	</div>
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="js/box.js"></script>
+    <script type="module" src="js/gemini.js"></script>
+    </body>
+</html>
